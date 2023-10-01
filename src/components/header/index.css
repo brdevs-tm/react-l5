@@ -1,0 +1,57 @@
+@import url("../../index.css");
+
+.header {
+  user-select: none;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+
+.time span {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.cam-dot {
+  width: 10px;
+  height: 10px;
+  background-color: aqua;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.antenna img,
+battery img {
+  width: 15px;
+  height: 15px;
+}
+
